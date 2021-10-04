@@ -1,0 +1,21 @@
+# このサイト全体のタイトル
+site_name: サイト名（※ページ名ではないです）
+
+# 管理者名
+# author: サイトの管理者名
+
+# meta description（og:description・twitter:descriptionでも使用）
+# description: サイト共通のディスクリプションです。
+
+# meta keywords
+# keywords: ['AAA', 'BBB']
+
+# カノニカル・og:urlなどで使われる、このサイトのドメイン名
+# （複数ページあるサイトでは、全てに同じドメイン名を入れないように）
+site_url: https://graphic.co.jp
+
+# Facebook OGP・Twitter cardsで使われる画像 フルURLで指定すること
+# ogp_image_path: assets/img/ogp.jpg
+
+# favicon
+# favicon_path: favicon.ico

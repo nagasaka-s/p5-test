@@ -1,0 +1,12 @@
+extends /layout/_default-layout
+
+prepend config-block
+  -
+    page_name = 'ページ名'
+
+include /components/plain-text
+
+block content-block
+  .wrap
+    +plain-text('Noto Sans JP regular').text
+    img(src=getImage('image.png'))

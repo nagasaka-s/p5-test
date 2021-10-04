@@ -1,0 +1,6 @@
+ROOT_DIR: /
+DEV_DIR: /develop/
+# 画像の保存場所
+IMG_DIR: assets/img/
+# CSSの保存場所
+CSS_DIR: assets/css/

@@ -1,0 +1,19 @@
+%hover-opacity {
+  @include pc-layout() {
+    transition: opacity 200ms ease-in-out;
+    will-change: opacity;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}
+
+%notosans-regular {
+  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  font-weight: 400;
+}
+
+%notosans-bold {
+  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  font-weight: 700;
+}

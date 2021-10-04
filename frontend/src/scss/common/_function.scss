@@ -1,0 +1,23 @@
+@function image-url($url) {
+  @return url('#{$image_directory}#{$url}');
+}
+
+@function color($key) {
+  @return map-get($colors, $key);
+}
+
+@function easing($key) {
+  @return map-get($easings, $key);
+}
+
+@function vw($size, $viewport: strip-unit($pc_min_width)) {
+  $rate: 100 / $viewport;
+  @return $rate * $size * 1vw;
+}
+
+@function strip-unit($number) {
+  @if type-of($number) == 'number' and not unitless($number) {
+    @return $number / ($number * 0 + 1);
+  }
+  @return $number;
+}
