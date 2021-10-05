@@ -1,4 +1,5 @@
 import StaticData from '@/lib/StaticData';
+import Sketch from '@/lib/Sketch';
 
 const init = () => {
   window.addEventListener('resize', onResize);
