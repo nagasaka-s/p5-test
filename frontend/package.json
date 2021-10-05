@@ -54,7 +54,6 @@
     "android >= 4.4"
   ],
   "dependencies": {
-    "lodash": "^4.17.21",
-    "p5": "^1.4.0"
+    "lodash": "^4.17.21"
   }
 }
